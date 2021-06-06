@@ -1,0 +1,20 @@
+type Brand {
+  brandId: ID!
+  brandName: String!
+}
+
+type Product {
+  productId: ID!
+  productName: String!
+  productSlug: String!
+  sku: String
+  brand: Brand!
+}
+
+type Query {
+  products: [Product]
+}
+
+type Mutation {
+  createProduct(productName:String!, productSlug: String!, sku: String, brandId: Int!): Product
+}
