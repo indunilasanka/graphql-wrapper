@@ -1,8 +1,8 @@
-###Graphql-Wrapper
+### Graphql-Wrapper
 
 Graphql wrapper for product-info service.
 
-#####How to Start
+##### How to Start
 1. First run the product-info-api
 2. Then update config/config.js file with server base url
 3. Open terminal and run "npm install"
